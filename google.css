@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+     padding: 10px 20px
+}
+.top .links a{
+    align-items: center;
+    color: black;
+    gap: 20px ;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 15px;
+}
+.top  .profile{
+    font-size: 19px;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .logo{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 70px;
+    /* background-color: blue; */
+}
+.container .search{
+    display: flex;
+    justify-content: center;
+      align-items: center;
+      width: 20%;
+    margin-top: 40px;
+    border-radius: 20px;
+    border-color: gray;
+    box-shadow: 0 1px 3px;
+    flex: 1;
+    min-width: 500px;
+}
+
+.container .search img{
+    display: flex;
+    width: 25px;
+    border-radius: 50%;
+    border: none;
+}
+input{
+    width: 400px;
+    height: 50px;
+    border: none;
+    font-size: medium;
+    padding-left: 15px;
+    
+}
+.search :focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+    caret-color: black;
+}
+.plus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+.plus i{
+    font-size: large;
+    color: blue;
+    cursor: pointer;
+    background-color: antiquewhite;
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 5px ;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+   padding: 10px 20px ;
+   margin-top: auto;
+}
+.customize{
+    padding: 8px 14px;
+    cursor: pointer;
+    border: 0cap;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.customize i {
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+
+ 
